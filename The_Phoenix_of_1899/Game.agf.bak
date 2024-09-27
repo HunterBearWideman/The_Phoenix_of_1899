@@ -2438,7 +2438,7 @@
         </Characters>
       </CharacterFolder>
     </Characters>
-    <PlayerCharacter>0</PlayerCharacter>
+    <PlayerCharacter>1</PlayerCharacter>
     <Dialogs>
       <DialogFolder Name="Main">
         <SubFolders />

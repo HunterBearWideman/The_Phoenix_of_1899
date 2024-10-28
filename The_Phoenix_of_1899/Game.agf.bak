@@ -2247,12 +2247,12 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>2041</CursorImage>
-            <Description xml:space="preserve">totally a handkerchief</Description>
+            <CursorImage>35</CursorImage>
+            <Description>handkerchief</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <ID>6</ID>
-            <Image>2041</Image>
+            <Image>35</Image>
             <Name>iHandkerchief</Name>
             <PlayerStartsWithItem>True</PlayerStartsWithItem>
             <Properties />
@@ -2605,8 +2605,36 @@ Gray: Hello again Miss! Do you have your trowel?
 // add branching option yes or no, no prompts reminder
 // yes prompts trowel success
 return
+@1 //yes, IF you have the trowel
+Gray: Well would you look at that! You do have a lucky trowel!
+Lydia: Did you think me a liar Ms. Gray?
+Gray: Well, maybe a wannabe. But this, ma'am, is a finely used and cared for tool.
+Gray: I'd love to hear its stories sometime.
+Gray: President Boyajian will be in his study upstairs. Go ahead and introduce yourself, Miss..?
+Lydia: Attulus, Lydia Attulus.
+Gray: Attulus? As in Vincent Attulus, the man who may have discovered Noah's Ark?
+Gray: Why didn't you say so?! Get up there!
+  Puzzle01Stage = 4
+stop
+@2
+Gray: Ah, I see. Have you tried retracing your steps?
+Gray: Please come back once you've found that trowel.
+stop
 ]]></Script>
-                <DialogOptions />
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text xml:space="preserve">Here it is!</Text>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text xml:space="preserve">No, not yet.</Text>
+                  </DialogOption>
+                </DialogOptions>
               </Dialog>
               <Dialog>
                 <ID>5</ID>
@@ -5149,6 +5177,21 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="35" Width="24" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\hwideman\Documents\Hunter Wideman Indie Tools Fall 2024\The Phoenix of 1899\The_Phoenix_of_1899\Files For Game\Handkerchief 1-1.png.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>24</ImportHeight>
+                      <ImportWidth>24</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
             </SubFolders>
@@ -5929,7 +5972,7 @@ return
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>3</ID>
-                        <Image>34</Image>
+                        <Image>32</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
@@ -5943,6 +5986,13 @@ return
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>5</ID>
+                        <Image>34</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
                         <Image>32</Image>
                         <Sound>0</Sound>
                       </ViewFrame>

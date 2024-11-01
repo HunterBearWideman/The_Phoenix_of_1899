@@ -2175,12 +2175,12 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>2042</CursorImage>
+            <CursorImage>46</CursorImage>
             <Description>Key</Description>
-            <HotspotX>1</HotspotX>
-            <HotspotY>1</HotspotY>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
             <ID>2</ID>
-            <Image>2042</Image>
+            <Image>46</Image>
             <Name>iKey</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
@@ -2193,12 +2193,12 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>1</CursorImage>
+            <CursorImage>43</CursorImage>
             <Description xml:space="preserve">Lucky Trowel</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <ID>3</ID>
-            <Image>1</Image>
+            <Image>43</Image>
             <Name>iLuckyTrowel</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
@@ -2211,12 +2211,12 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>5</CursorImage>
+            <CursorImage>42</CursorImage>
             <Description>Firebolt</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <ID>4</ID>
-            <Image>5</Image>
+            <Image>42</Image>
             <Name>iFirebolt</Name>
             <PlayerStartsWithItem>True</PlayerStartsWithItem>
             <Properties />
@@ -2229,12 +2229,12 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <CursorImage>1</CursorImage>
+            <CursorImage>44</CursorImage>
             <Description xml:space="preserve">My trowel is dirty!</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <ID>5</ID>
-            <Image>1</Image>
+            <Image>44</Image>
             <Name>iDirtyTrowel</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
@@ -2702,10 +2702,10 @@ return
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>13</HotspotX>
-        <HotspotY>24</HotspotY>
+        <HotspotX>6</HotspotX>
+        <HotspotY>4</HotspotY>
         <ID>0</ID>
-        <Image>40</Image>
+        <Image>47</Image>
         <Name xml:space="preserve">Walk to</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -2715,10 +2715,10 @@ return
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>13</HotspotX>
-        <HotspotY>7</HotspotY>
+        <HotspotX>5</HotspotX>
+        <HotspotY>2</HotspotY>
         <ID>1</ID>
-        <Image>41</Image>
+        <Image>48</Image>
         <Name xml:space="preserve">Look at</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -2728,10 +2728,10 @@ return
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>1</HotspotX>
-        <HotspotY>1</HotspotY>
+        <HotspotX>4</HotspotX>
+        <HotspotY>2</HotspotY>
         <ID>2</ID>
-        <Image>2057</Image>
+        <Image>55</Image>
         <Name>Interact</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -2780,10 +2780,10 @@ return
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
+        <HotspotX>4</HotspotX>
+        <HotspotY>2</HotspotY>
         <ID>6</ID>
-        <Image>2061</Image>
+        <Image>56</Image>
         <Name>Pointer</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
@@ -5232,6 +5232,66 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="47" Width="27" Height="26" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\hwideman\Documents\Hunter Wideman Indie Tools Fall 2024\The Phoenix of 1899\The_Phoenix_of_1899\Files For Game\GUI\MoveTo-4.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>26</ImportHeight>
+                      <ImportWidth>27</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="48" Width="27" Height="26" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\hwideman\Documents\Hunter Wideman Indie Tools Fall 2024\The Phoenix of 1899\The_Phoenix_of_1899\Files For Game\GUI\Look-2.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>26</ImportHeight>
+                      <ImportWidth>27</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="55" Width="27" Height="26" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\hwideman\Documents\Hunter Wideman Indie Tools Fall 2024\The Phoenix of 1899\The_Phoenix_of_1899\Files For Game\GUI\Interact-1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>26</ImportHeight>
+                      <ImportWidth>27</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="56" Width="27" Height="26" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\hwideman\Documents\Hunter Wideman Indie Tools Fall 2024\The Phoenix of 1899\The_Phoenix_of_1899\Files For Game\GUI\BaseArrowIcon.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>26</ImportHeight>
+                      <ImportWidth>27</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="Items">
@@ -5274,6 +5334,176 @@ return
                       <OffsetY>0</OffsetY>
                       <ImportHeight>24</ImportHeight>
                       <ImportWidth>24</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="42" Width="22" Height="22" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\hwideman\Documents\Hunter Wideman Indie Tools Fall 2024\The Phoenix of 1899\The_Phoenix_of_1899\Files For Game\FireBoltDraft-2.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>22</ImportHeight>
+                      <ImportWidth>22</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="43" Width="23" Height="23" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\hwideman\Documents\Hunter Wideman Indie Tools Fall 2024\The Phoenix of 1899\The_Phoenix_of_1899\Files For Game\Trowel 2.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>23</ImportHeight>
+                      <ImportWidth>23</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="44" Width="23" Height="23" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\hwideman\Documents\Hunter Wideman Indie Tools Fall 2024\The Phoenix of 1899\The_Phoenix_of_1899\Files For Game\TrowelDirty.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>23</ImportHeight>
+                      <ImportWidth>23</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="45" Width="23" Height="23" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\hwideman\Documents\Hunter Wideman Indie Tools Fall 2024\The Phoenix of 1899\The_Phoenix_of_1899\Files For Game\Key1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>23</ImportHeight>
+                      <ImportWidth>23</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="46" Width="19" Height="19" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\hwideman\Documents\Hunter Wideman Indie Tools Fall 2024\The Phoenix of 1899\The_Phoenix_of_1899\Files For Game\KeySmall.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>19</ImportHeight>
+                      <ImportWidth>19</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="VFX">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="49" Width="22" Height="22" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\hwideman\Documents\Hunter Wideman Indie Tools Fall 2024\The Phoenix of 1899\The_Phoenix_of_1899\Files For Game\FireBlast-1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>22</ImportHeight>
+                      <ImportWidth>22</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="50" Width="22" Height="22" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\hwideman\Documents\Hunter Wideman Indie Tools Fall 2024\The Phoenix of 1899\The_Phoenix_of_1899\Files For Game\FireBlast-2.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>22</ImportHeight>
+                      <ImportWidth>22</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="51" Width="22" Height="22" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\hwideman\Documents\Hunter Wideman Indie Tools Fall 2024\The Phoenix of 1899\The_Phoenix_of_1899\Files For Game\FireBlast-3.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>22</ImportHeight>
+                      <ImportWidth>22</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="52" Width="22" Height="22" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\hwideman\Documents\Hunter Wideman Indie Tools Fall 2024\The Phoenix of 1899\The_Phoenix_of_1899\Files For Game\FireBlast-4.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>22</ImportHeight>
+                      <ImportWidth>22</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="53" Width="22" Height="22" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\hwideman\Documents\Hunter Wideman Indie Tools Fall 2024\The Phoenix of 1899\The_Phoenix_of_1899\Files For Game\FireBlast-5.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>22</ImportHeight>
+                      <ImportWidth>22</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="54" Width="22" Height="22" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\hwideman\Documents\Hunter Wideman Indie Tools Fall 2024\The Phoenix of 1899\The_Phoenix_of_1899\Files For Game\FireBlast-6.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>22</ImportHeight>
+                      <ImportWidth>22</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -6114,6 +6344,60 @@ return
                     <Flipped>False</Flipped>
                     <ID>1</ID>
                     <Image>38</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>9</ID>
+            <Name>FireBlast</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>49</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>50</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>51</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>52</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>4</ID>
+                    <Image>53</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>5</ID>
+                    <Image>54</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>

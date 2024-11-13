@@ -653,27 +653,27 @@
         <SubFolders />
         <UnloadedRooms>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description xml:space="preserve">Tutorial Room</Description>
             <Number>1</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description xml:space="preserve">Disney Test Room</Description>
             <Number>2</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description xml:space="preserve">Outside Society</Description>
             <Number>3</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description xml:space="preserve">Society Hall</Description>
             <Number>4</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description>Overlook</Description>
             <Number>5</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description xml:space="preserve">Presidential Study</Description>
             <Number>6</Number>
           </UnloadedRoom>
         </UnloadedRooms>
@@ -2570,8 +2570,8 @@
             <SpeechAnimationDelay>0</SpeechAnimationDelay>
             <SpeechColor>31802</SpeechColor>
             <SpeechView>6</SpeechView>
-            <StartX>190</StartX>
-            <StartY>145</StartY>
+            <StartX>193</StartX>
+            <StartY>143</StartY>
             <StartingRoom>6</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -2579,10 +2579,10 @@
             <UseRoomAreaLighting>True</UseRoomAreaLighting>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">cPresident_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
-              <Event Index="3" />
+              <Event Index="3">cPresident_UseInv</Event>
               <Event Index="4" />
               <Event Index="5" />
               <Event Index="6" />
@@ -2625,15 +2625,13 @@ return
               </Dialog>
               <Dialog>
                 <ID>4</ID>
-                <Name>dGrayReturn</Name>
+                <Name>dGrayReturnWith</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Gray: Hello again Miss! Do you have your trowel?
-// add branching option yes or no, no prompts reminder
-// yes prompts trowel success
 return
-@1 //yes, IF you have the trowel
+@1
 Gray: Well would you look at that! You do have a lucky trowel!
 Lydia: Did you think me a liar Ms. Gray?
 Gray: Well, maybe a wannabe. But this, ma'am, is a finely used and cared for tool.
@@ -2693,6 +2691,27 @@ Gray: Why didn't you say so?! Get up there!
 return
 ]]></Script>
                 <DialogOptions />
+              </Dialog>
+              <Dialog>
+                <ID>6</ID>
+                <Name>dGrayReturnWithout</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Gray: Hello again Miss! Do you have your trowel?
+@1
+Gray: Ah, I see. Have you tried retracing your steps?
+Gray: Please come back once you've found that trowel.
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Say>True</Say>
+                    <Show>True</Show>
+                    <Text />
+                  </DialogOption>
+                </DialogOptions>
               </Dialog>
             </Dialogs>
           </DialogFolder>

@@ -676,6 +676,10 @@
             <Description xml:space="preserve">Presidential Study</Description>
             <Number>6</Number>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Description>Ruins</Description>
+            <Number>7</Number>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>

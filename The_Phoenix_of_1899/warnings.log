@@ -1,2 +1,1 @@
-Game : (room:5)[R 73] SetObjectFrame: invalid loop number used for view 8 (6, range is 0 - 0)
-Game : (room:5) Dialog: all options have been turned off, stopping dialog.
+Game : (room:4) Dialog: all options have been turned off, stopping dialog.

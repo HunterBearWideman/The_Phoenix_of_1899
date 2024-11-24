@@ -677,7 +677,7 @@
             <Number>6</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description>Ruins</Description>
+            <Description xml:space="preserve">Outside Ruins</Description>
             <Number>7</Number>
           </UnloadedRoom>
         </UnloadedRooms>

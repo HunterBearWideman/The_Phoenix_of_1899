@@ -2601,19 +2601,19 @@
             <ID>3</ID>
             <IdleAnimationDelay>4</IdleAnimationDelay>
             <IdleDelay>20</IdleDelay>
-            <IdleView>4</IdleView>
+            <IdleView>12</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
-            <NormalView>4</NormalView>
+            <NormalView>12</NormalView>
             <Properties />
             <RealName xml:space="preserve">President Boyajian</RealName>
             <ScriptName>cPresident</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>0</SpeechAnimationDelay>
-            <SpeechColor>31802</SpeechColor>
-            <SpeechView>6</SpeechView>
+            <SpeechColor>38442</SpeechColor>
+            <SpeechView>12</SpeechView>
             <StartX>193</StartX>
             <StartY>143</StartY>
             <StartingRoom>6</StartingRoom>
@@ -2651,7 +2651,7 @@
             <NormalView>10</NormalView>
             <Properties />
             <RealName>Firebird</RealName>
-            <ScriptName>Perig</ScriptName>
+            <ScriptName>cPerig</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
@@ -2667,7 +2667,7 @@
             <Interactions>
               <Event Index="0" />
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cPerig_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -2839,6 +2839,29 @@ return
 @S  // Dialog startup entry point
 Lydia: That bird has my trowel! And some other shiny things too, by the looks of it.
 Lydia: I bet if I scared it off, I could climb up there and grab it.
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>8</ID>
+            <Name>dPerigMeet</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Lydia: Cheese and crust, the phoenix! This is too goo to be-
+Lydia: Wait. 
+Lydia: ...
+Perig: Bok.
+Lydia: That's a chicken.
+Perig: Bok.
+Lydia: It's a red, flaming chicken.
+Perig: ...
+Perig: Buk-ok.
+Lydia: Flummadiddle, balderdash... They hornswoggled me!
+Perig: Bok?
+Lydia: Boyajian wanted to make a fool of the foreigner. Ah, well... They have their own business top mind here. I'm owed nothing.
+Lydia: But 
 return
 ]]></Script>
             <DialogOptions />
@@ -5472,6 +5495,21 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="122" Width="25" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\hunte\OneDrive\Documents\High Point\Game Design\Indie Game Dev Tools\The_Phoenix_of_1899\Files For Game\Characters\President.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>60</ImportHeight>
+                      <ImportWidth>25</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="GUI">
@@ -7525,7 +7563,7 @@ return
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>112</Image>
+                        <Image>111</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -7652,7 +7690,7 @@ return
               </View>
               <View>
                 <ID>10</ID>
-                <Name>Perig</Name>
+                <Name>ViewPerig</Name>
                 <Loops>
                   <Loop>
                     <ID>0</ID>
@@ -7789,6 +7827,56 @@ return
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>12</ID>
+                <Name>ViewPresident</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>122</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames />
                   </Loop>
                 </Loops>
               </View>

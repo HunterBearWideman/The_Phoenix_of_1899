@@ -2873,7 +2873,7 @@ return
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-Lydia: Cheese and crust, the phoenix! This is too goo to be-
+Lydia: Cheese and crust, the phoenix! This is too good to be-
 Lydia: Wait. 
 Lydia: ...
  aChickenCluck.Play();
@@ -2888,7 +2888,7 @@ Perig: Buk-ok.
 Lydia: Flummadiddle, balderdash... They hornswoggled me!
  aChickenCluck.Play();
 Perig: Bok?
-Lydia: Boyajian wanted to make a fool of the foreigner. Ah, well... They have their own business top mind here. I'm owed nothing.
+Lydia: Boyajian wanted to make a fool of the foreigner. Ah, well... They have their own business to mind here. I'm owed nothing.
 Lydia: Or was this just some kind of hazing?
  aChickenCluck.Play();
 Perig: Buk.
